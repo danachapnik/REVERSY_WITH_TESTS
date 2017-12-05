@@ -1,4 +1,4 @@
-# Install script for directory: /home/omer/CLionProjects/ReversyTests
+# Install script for directory: /home/dana/CLionProjects/REVERSY_WITH_TESTS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

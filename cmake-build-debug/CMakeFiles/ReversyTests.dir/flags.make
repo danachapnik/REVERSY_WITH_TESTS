@@ -6,5 +6,5 @@ CXX_FLAGS =  -lpthread -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/include -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock/include 
+CXX_INCLUDES = -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include 
 

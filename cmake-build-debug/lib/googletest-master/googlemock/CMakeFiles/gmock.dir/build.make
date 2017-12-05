@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/omer/clion-2017.2.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dana/Programs/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/omer/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/dana/Programs/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/ReversyTests
+CMAKE_SOURCE_DIR = /home/dana/CLionProjects/REVERSY_WITH_TESTS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/ReversyTests/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,16 +59,16 @@ include lib/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: ../lib/googletest-master/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/src/gtest-all.cc
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-al
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../lib/googletest-master/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/src/gmock-all.cc
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires:
 
@@ -117,9 +117,9 @@ lib/googletest-master/googlemock/libgmockd.a: lib/googletest-master/googlemock/C
 lib/googletest-master/googlemock/libgmockd.a: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 lib/googletest-master/googlemock/libgmockd.a: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make
 lib/googletest-master/googlemock/libgmockd.a: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmockd.a"
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmockd.a"
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build: lib/googletest-master/googlemock/libgmockd.a
@@ -132,10 +132,10 @@ lib/googletest-master/googlemock/CMakeFiles/gmock.dir/requires: lib/googletest-m
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/requires
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/clean
 
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /home/omer/CLionProjects/ReversyTests/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omer/CLionProjects/ReversyTests /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock /home/omer/CLionProjects/ReversyTests/cmake-build-debug /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock /home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dana/CLionProjects/REVERSY_WITH_TESTS /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -lpthread -g    -lpthread -Wall -Wshadow -Werror -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock/include -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googlemock -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/include -I/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include -I/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest 
 

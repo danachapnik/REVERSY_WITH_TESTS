@@ -1,4 +1,4 @@
-# Install script for directory: /home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest
+# Install script for directory: /home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/omer/CLionProjects/ReversyTests/lib/googletest-master/googletest/include/gtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include/gtest")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/gtest.pc"
-    "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/gtest_main.pc"
+    "/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/gtest.pc"
+    "/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/gtest_main.pc"
     )
 endif()
 
