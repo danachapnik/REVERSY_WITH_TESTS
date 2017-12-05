@@ -18,6 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04ccbd45-ff44-48a9-822a-28dd4a731290" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayerTypes.h" afterPath="$PROJECT_DIR$/src/PlayerTypes.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,8 +99,8 @@
       <file leaf-file-name="PlayerTypes.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayerTypes.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,6 @@
         <option value="$PROJECT_DIR$/tests/BoardTest.h" />
         <option value="$PROJECT_DIR$/src/Point.h" />
         <option value="$PROJECT_DIR$/src/Point.cpp" />
-        <option value="$PROJECT_DIR$/src/PlayerTypes.h" />
         <option value="$PROJECT_DIR$/src/PlayerTypes.cpp" />
         <option value="$PROJECT_DIR$/src/IRules.h" />
         <option value="$PROJECT_DIR$/src/IPlayer.h" />
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/LocalNetworkPlayer.h" />
         <option value="$PROJECT_DIR$/src/RemoteNetworkPlayer.h" />
         <option value="$PROJECT_DIR$/src/Socket.h" />
+        <option value="$PROJECT_DIR$/src/PlayerTypes.h" />
       </list>
     </option>
   </component>
@@ -314,7 +315,7 @@
       <workItem from="1512220480668" duration="2905000" />
       <workItem from="1512233945951" duration="2980000" />
       <workItem from="1512303807493" duration="10146000" />
-      <workItem from="1512415907956" duration="5585000" />
+      <workItem from="1512415907956" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="backup">
       <created>1512486542460</created>
@@ -323,14 +324,29 @@
       <option name="project" value="LOCAL" />
       <updated>1512486542460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="backup">
+      <created>1512486717888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512486717888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="trying">
+      <created>1512487056553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512487056553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69766000" />
+    <option name="totallyTimeSpent" value="70346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="742" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -382,7 +398,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup" />
+    <MESSAGE value="trying" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayerTypes.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>

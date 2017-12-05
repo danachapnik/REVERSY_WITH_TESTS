@@ -5,7 +5,6 @@
 
 typedef enum
 {
-	//helloooo
 	PLAYER_TYPE_X,
 	PLAYER_TYPE_O,
 	PLAYER_TYPE_NONE
