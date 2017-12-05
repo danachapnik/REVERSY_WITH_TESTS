@@ -15,24 +15,11 @@
 
 class LocalNetworkPlayer: public IPlayer {
 public:
-    /**
-     * constractor.
-     */
 	LocalNetworkPlayer(const PlayerTypes player_type, const std::string& name, Socket* socket);
-    /**
-     * get point.
-     * @param rules the rules.
-     * @param board the board.
-     * @return point the point.
-     */
+
 	virtual Point get_move(const IRules& rules, const Board& board);
-    /**
-     * notify the end of the game.
-     */
+
 	virtual void notify_end();
-    /**
-     * notify not move.
-     */
 	virtual void notify_no_move();
 
 private:

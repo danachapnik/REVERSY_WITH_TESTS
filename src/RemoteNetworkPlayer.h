@@ -14,18 +14,8 @@
 
 class RemoteNetworkPlayer: public IPlayer {
 public:
-    /**
-     * constractor.
-     * @param player_type
-     * @param socket
-     */
 	RemoteNetworkPlayer(const PlayerTypes player_type, Socket* socket);
-    /**
-     * get the move.
-     * @param rules.
-     * @param board.
-     * @return the point.
-     */
+
 	virtual Point get_move(const IRules& rules, const Board& board);
 
 private:

@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <unistd.h>
 #include "Game.h"
 #include "ConsolePlayer.h"
 #include "ComputerPlayer.h"
@@ -9,12 +10,13 @@
 #include "RemoteNetworkPlayer.h"
 int main()
 {
-	//1 for choosing against computer, 2 for human.
+    //1 for choosing against computer, 2 for human.
 	int choose;
 	Board board(8);
-	// pointer to IPlayer type (can be computerPlayer or consolePlayer).
+    // pointer to IPlayer type (can be computerPlayer or consolePlayer).
 	IPlayer* o_player;
 	IPlayer* player_2;
+    int playerNum;
 	std::cout << "Choose your opponent: 1 for computer , 2 for human player, 3 for remote player";
 	std::cin >> choose;
 	if (choose == 1)
@@ -30,8 +32,21 @@ int main()
 	else if (choose == 3)
 	{
 		Socket* socket1 = new Socket();
-		o_player = new LocalNetworkPlayer(PLAYER_TYPE_O,"Player O",socket1);
-		player_2 = new RemoteNetworkPlayer(PLAYER_TYPE_X, socket1);
+        socket1->connectToServer("127.0.0.1",6666 );
+        int n = read(socket1->getM_socket() , &playerNum , sizeof(playerNum));
+        if (n == -1) {
+            std::cout <<"Error";
+        }
+        if (playerNum == 1) {
+            o_player = new LocalNetworkPlayer(PLAYER_TYPE_X,"Player X",socket1);
+            player_2 = new RemoteNetworkPlayer(PLAYER_TYPE_O, socket1);
+
+        }
+        else
+        {
+            o_player = new LocalNetworkPlayer(PLAYER_TYPE_O,"Player O",socket1);
+            player_2 = new RemoteNetworkPlayer(PLAYER_TYPE_X, socket1);
+        }
 
 	}
 	//ConsolePlayer player_1(PLAYER_TYPE_O, "Player O");
@@ -40,10 +55,10 @@ int main()
 	BasicRules rules;
 
 	Game game(player_2, o_player, &board, &displayer, &rules);
-	//running the game .
+    //running the game .
 	game.run();
 
 	delete o_player;
 	delete player_2;
-	return 0;
+    return 0;
 }
