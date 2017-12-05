@@ -35,7 +35,7 @@ int main()
         socket1->connectToServer("127.0.0.1",6666 );
         int n = read(socket1->getM_socket() , &playerNum , sizeof(playerNum));
         if (n == -1) {
-            std::cout <<"Error";
+            std::cout <<"Error1";
         }
         if (playerNum == 1) {
             o_player = new LocalNetworkPlayer(PLAYER_TYPE_X,"Player X",socket1);

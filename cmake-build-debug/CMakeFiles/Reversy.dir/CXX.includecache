@@ -6,43 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.cpp
 iostream
 -
 map
 -
 BasicRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.h
 IRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.cpp
 Board.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 vector
 -
 Point.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 PlayerTypes.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.cpp
 ComputerPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.h
 map
 -
 utility
 -
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.h
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.cpp
 string
 -
 iostream
@@ -50,127 +50,135 @@ iostream
 map
 -
 ConsoleDisplayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.h
 IDisplayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IDisplayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.cpp
 iostream
 -
 ConsolePlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h
 string
 -
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 IRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.cpp
 algorithm
 -
 Game.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 Board.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 IDisplayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IDisplayer.h
 IRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IDisplayer.h
 Board.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.cpp
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 memory
 -
 Board.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 Point.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 IRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h
 Board.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.cpp
 unistd.h
 -
 iostream
+-
+cstdio
 -
 LocalNetworkPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.h
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 ConsolePlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h
 Socket.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.cpp
 PlayerTypes.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.cpp
 Point.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.cpp
 iostream
 -
 unistd.h
 -
+cstring
+-
+cstdlib
+-
 Point.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 RemoteNetworkPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h
 IPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h
 Socket.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Reversy.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Reversy.cpp
 iostream
+-
+unistd.h
 -
 Game.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h
 ConsolePlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h
 ComputerPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.h
 ConsoleDisplayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.h
 BasicRules.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.h
 LocalNetworkPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.h
 RemoteNetworkPlayer.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.cpp
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.cpp
 unistd.h
 -
 netinet/in.h
@@ -186,9 +194,9 @@ cstring
 iostream
 -
 Socket.h
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.h
 
-/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.h
+/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.h
 sys/socket.h
 -
 

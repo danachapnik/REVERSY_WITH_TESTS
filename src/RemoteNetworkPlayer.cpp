@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <unistd.h>
+#include <cstring>
+#include <cstdlib>
 #include "Point.h"
 #include "RemoteNetworkPlayer.h"
 
@@ -15,16 +17,20 @@ RemoteNetworkPlayer::RemoteNetworkPlayer(const PlayerTypes player_type,
 }
 
 Point RemoteNetworkPlayer::get_move(const IRules& rules, const Board& board) {
-	std::cout << "Waiting for other player's move...";
-    unsigned char buf[256];
+    std::cout << "Waiting for other player's move...";
+    char buf[256];
     int p[2];
-    m_socket->connectToServer("127.0.0.1",6666 );
-    int n = read(m_socket->getM_socket() , p , sizeof(buf));
+    int n = read(m_socket->getM_socket() , buf , sizeof(buf));
     if (n == -1) {
         std::cout << "Error" << std::endl;
     }
 
-	// TODO: Read point via socket
+    char *ptr = strstr(buf, ",");
+    *ptr = '\0';
+    p[0] = atoi(buf);
+    p[1] = atoi(ptr+1);
+
+    // TODO: Read point via socket
     return Point(p[0], p[1]);
 	/*Point *point;
     point = (Point*) buf ;

@@ -8,84 +8,84 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googlemock\cmake\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Reversy">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Reversy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Reversy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -96,21 +96,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reversy"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reversy"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Reversy/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Reversy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Reversy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -121,21 +121,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reversy/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reversy/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReversyTests">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/ReversyTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/ReversyTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -146,21 +146,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversyTests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversyTests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReversyTests/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/ReversyTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/ReversyTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -171,23 +171,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversyTests/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversyTests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -198,23 +198,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -225,23 +225,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -252,23 +252,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -279,21 +279,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -304,21 +304,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -329,21 +329,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -354,21 +354,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option output="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -379,232 +379,232 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/src/gtest-all.cc">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/src/gtest_main.cc">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/BasicRules.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/BasicRules.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Board.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Board.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ComputerPlayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ComputerPlayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsoleDisplayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsoleDisplayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/ConsolePlayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Game.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IDisplayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IDisplayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IPlayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IPlayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/IRules.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/IRules.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/LocalNetworkPlayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/LocalNetworkPlayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/PlayerTypes.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/PlayerTypes.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Point.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/RemoteNetworkPlayer.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Reversy.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Reversy.cpp">
 			<Option target="Reversy"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.cpp">
-			<Option target="Reversy"/>
-			<Option target="ReversyTests"/>
-		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/src/Socket.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/tests/BasicRulesTest.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Socket.h">
+			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/tests/BoardTest.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/tests/BasicRulesTest.h">
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/tests/ComputerPlayerTest.h">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/tests/BoardTest.h">
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/tests/SomeTests.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/tests/ComputerPlayerTest.h">
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/tests/gtest_main.cpp">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/tests/SomeTests.cpp">
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/tests/gtest_main.cpp">
+			<Option target="ReversyTests"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/dana/CLionProjects/REVERSY_WITH_TESTS/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
 	</Project>

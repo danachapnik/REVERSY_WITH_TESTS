@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1725/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1725.dir/build.make CMakeFiles/cmTC_d1725.dir/build
-make[1]: Entering directory '/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d1725.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d1725.dir/CheckSymbolExists.c.o   -c /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d1725
-/home/dana/Programs/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1725.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1725.dir/CheckSymbolExists.c.o  -o cmTC_d1725 
-CMakeFiles/cmTC_d1725.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_1403e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1403e.dir/build.make CMakeFiles/cmTC_1403e.dir/build
+make[1]: Entering directory '/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1403e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1403e.dir/CheckSymbolExists.c.o   -c /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1403e
+/home/omer/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1403e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1403e.dir/CheckSymbolExists.c.o  -o cmTC_1403e 
+CMakeFiles/cmTC_1403e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d1725.dir/build.make:97: recipe for target 'cmTC_d1725' failed
-make[1]: *** [cmTC_d1725] Error 1
-make[1]: Leaving directory '/home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d1725/fast' failed
-make: *** [cmTC_d1725/fast] Error 2
+CMakeFiles/cmTC_1403e.dir/build.make:97: recipe for target 'cmTC_1403e' failed
+make[1]: *** [cmTC_1403e] Error 1
+make[1]: Leaving directory '/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1403e/fast' failed
+make: *** [cmTC_1403e/fast] Error 2
 
-File /home/dana/CLionProjects/REVERSY_WITH_TESTS/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 

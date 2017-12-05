@@ -7,6 +7,7 @@
 
 #include <unistd.h>
 #include <iostream>
+#include <cstdio>
 #include "LocalNetworkPlayer.h"
 
 LocalNetworkPlayer::LocalNetworkPlayer(const PlayerTypes player_type,
@@ -20,16 +21,16 @@ Point LocalNetworkPlayer::get_move(const IRules& rules, const Board& board) {
 	const Point point = m_console_player.get_move(rules, board);
 //write
 	// TODO: Send point to server via socket
-    unsigned char buf[256];
-    int p[2] ;
+     char buf[8];
+    /*int p[2] ;
     p[0] = point.get_x();
-    p[1] = point.get_y();
-    m_socket->connectToServer("127.0.0.1",6666 );
-    int n = write( m_socket->getM_socket() , p, sizeof(buf));
+    p[1] = point.get_y();*/
+    //m_socket->connectToServer("127.0.0.1",6666 );
+    sprintf(buf, "%d,%d", point.get_x(), point.get_x());
+    int n = write( m_socket->getM_socket() , buf, sizeof(buf));
     if (n == -1) {
         std::cout << "Error<<"<< std::endl;
     }
-
 	return point;
 }
 
