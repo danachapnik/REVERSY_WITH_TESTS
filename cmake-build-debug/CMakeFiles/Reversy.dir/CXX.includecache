@@ -59,6 +59,8 @@ IDisplayer.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.cpp
 iostream
 -
+algorithm
+-
 ConsolePlayer.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/ConsolePlayer.h
 

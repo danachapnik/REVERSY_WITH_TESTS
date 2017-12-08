@@ -17,7 +17,7 @@ RemoteNetworkPlayer::RemoteNetworkPlayer(const PlayerTypes player_type,
 }
 
 Point RemoteNetworkPlayer::get_move(const IRules& rules, const Board& board) {
-    std::cout << "Waiting for other player's move...";
+    std::cout<< "Waiting for other player's move hi..."<< std::endl;
     char buf[256];
     int p[2];
     int n = read(m_socket->getM_socket() , buf , sizeof(buf));
@@ -32,7 +32,4 @@ Point RemoteNetworkPlayer::get_move(const IRules& rules, const Board& board) {
 
     // TODO: Read point via socket
     return Point(p[0], p[1]);
-	/*Point *point;
-    point = (Point*) buf ;
-	return *point;*/
 }

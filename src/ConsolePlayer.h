@@ -25,6 +25,8 @@ public:
 	virtual Point get_move(const IRules& rules, const Board& board);
 
 private:
+	Point get_player_move_choice();
+
 	const std::string m_name;
 };
 

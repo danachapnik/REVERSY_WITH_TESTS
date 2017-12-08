@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 #include "ConsolePlayer.h"
 
@@ -17,17 +18,29 @@ Point ConsolePlayer::get_move(const IRules& rules, const Board& board)
 	{
 		std::cout << "[" << legal_points[i].get_x() << ", " << legal_points[i].get_y() << "]" << std::endl;
 	}
+
+	Point point;
+	do
+	{
+		point = get_player_move_choice();
+	} while (legal_points.end() == std::find(legal_points.begin(), legal_points.end(), point));
+
+
+	return point;
+}
+
+Point ConsolePlayer::get_player_move_choice() {
 	std::cout<< m_name << ", please insert x y: ";
 	unsigned int x = 0;
 	unsigned int y = 0;
 	std::cin >> x >> y;
-    while (std::cin.fail()) {
-       std:: cout << "ERROR,cannot enter a letter!"<<std::endl ;
-       std:: cout << m_name << ", please insert x y: " ;
-       std:: cin.clear();
-       std::cin.ignore(256,'\n');
-       std::cin >> x >> y;
-    }
+	while (std::cin.fail()) {
+		std:: cout << "ERROR,cannot enter a letter!"<<std::endl ;
+		std:: cout << m_name << ", please insert x y: " ;
+		std:: cin.clear();
+		std::cin.ignore(256,'\n');
+		std::cin >> x >> y;
+	}
 
 	return Point(x, y);
 }
