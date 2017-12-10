@@ -153,6 +153,8 @@ Point.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Point.h
 RemoteNetworkPlayer.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h
+fstream
+-
 
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/RemoteNetworkPlayer.h
 IPlayer.h
@@ -164,6 +166,12 @@ Socket.h
 iostream
 -
 unistd.h
+-
+fstream
+-
+stdlib.h
+-
+cstring
 -
 Game.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h

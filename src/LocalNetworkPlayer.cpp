@@ -31,7 +31,7 @@ Point LocalNetworkPlayer::get_move(const IRules& rules, const Board& board) {
 }
 
 void LocalNetworkPlayer::notify_end() {
-    // TODO: Send End via socket
+    // Send End via socket
     int n = write( m_socket->getM_socket() , "END", sizeof("END"));
     if (n == -1) {
         std::cout << "Error<<"<< std::endl;
@@ -40,7 +40,7 @@ void LocalNetworkPlayer::notify_end() {
 }
 
 void LocalNetworkPlayer::notify_no_move() {
-    // TODO: Send NoMove via socket
+    // Send NoMove via socket
     int n = write( m_socket->getM_socket() , "NoMove", sizeof("NoMove"));
     if (n == -1) {
         std::cout << "Error<<"<< std::endl;
