@@ -2,6 +2,7 @@
 #include <iostream>
 #include <unistd.h>
 #include <fstream>
+#include <string>
 #include <stdlib.h>
 #include <cstring>
 #include "Game.h"
@@ -15,6 +16,7 @@
 int main() {
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
+    string command;
     Board board(8);
     int port;
     char ip[20];
@@ -33,15 +35,23 @@ int main() {
         player_2 = new ConsolePlayer(PLAYER_TYPE_O , "Player O");
     } else if (choose == 3) {
         std::ifstream inFile;
-        inFile.open("settings1");
+        inFile.open("/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/settings1");
         inFile >> port;
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
-        int n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
+        char buf[50];
+        std::cin >>
+        int n = write(socket1->getM_socket() , buf , sizeof(buf));
         if (n == -1) {
-            throw "Error on accept";
+            throw "Error on write";
         }
+
+        n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
+        if (n == -1) {
+            throw "Error on read";
+        }
+
         std::cout << "You're player #" << playerNum << std::endl;
             if (strcmp(playerNum,"1") == 0) {
                 player_1 = new LocalNetworkPlayer(PLAYER_TYPE_X , "Player X" , socket1);

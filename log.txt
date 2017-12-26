@@ -1,0 +1,90 @@
+commit 750019b17aeb70dcac8f89c42e948aeb32176c01
+Merge: 6d0089c 7532670
+Author: OmerDekel <omerdekel92@gmail.com>
+Date:   Sun Dec 10 21:50:48 2017 +0200
+
+    Adding final changes
+
+commit 6d0089c608cb66cfb9e6752b218abc25ad2bb245
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Fri Dec 8 13:38:43 2017 +0200
+
+    Adding the server to the project and fixing the main , ConsolePlayer , LocalNetworkPlayer , ConsolePlayer and the main Reversy
+
+commit 7532670eac30c3a8d464c8dc319d0a10f0ad2e96
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Thu Dec 7 17:08:48 2017 +0200
+
+    remove 'cmake-build-debug'
+
+commit 23ce654d660a48a21cbd54059c7760a1350ae19e
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Tue Dec 5 21:33:23 2017 +0200
+
+    Changing RemoteNetworkPlayer class and the LocalNetworkPlayer class to be able to read and write strings which be converted to points and adding make file
+
+commit 764c5c7bb3ae018466c34672a1eb7cc51303e81d
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Tue Dec 5 17:35:58 2017 +0200
+
+     Eddited the main to be able to get the choose to play agains remote player
+
+commit a9de99b96db820cef3330491aa280bca5477c40f
+Author: danachapnik <dana512@walla.co.il>
+Date:   Tue Dec 5 17:21:35 2017 +0200
+
+    trying
+
+commit 386fdd9cfe4b49106c0d52a1184617251d8e68ce
+Author: danachapnik <dana512@walla.co.il>
+Date:   Tue Dec 5 17:17:36 2017 +0200
+
+    trying
+
+commit 7dba3798c780a0840f4c237cc0ffd5d03d794282
+Author: danachapnik <dana512@walla.co.il>
+Date:   Tue Dec 5 17:11:57 2017 +0200
+
+    backup
+
+commit e32d86c30371eb33372eaa5dcb5d59b250f9c4c8
+Author: danachapnik <dana512@walla.co.il>
+Date:   Tue Dec 5 17:09:02 2017 +0200
+
+    backup
+
+commit 26f03623e4a87e35cf4942d2c92ceb6ede52d5c0
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Sun Dec 3 17:32:58 2017 +0200
+
+     Continue with the project
+
+commit a453ead72a330d6f2c25a32a02aa54e6bed241cc
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Sat Dec 2 15:49:28 2017 +0200
+
+    Start of excercise4
+
+commit 7d0ccd9cd0ff8e9968677bdd57bdb23d67e28d41
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Tue Nov 28 13:13:00 2017 +0200
+
+    More comments
+
+commit 2ddee6a1fd391dc8d2d6782f31fc62b304132980
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Mon Nov 27 14:26:50 2017 +0200
+
+    Codding style and comments by Dana
+
+commit 599f5e3d5770fbcddf6254eca2c7e70a1a25c26c
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Mon Nov 27 13:35:58 2017 +0200
+
+    Adding new tests.
+
+commit f1d1a85377a939601f55631fb5c7f024754ed9b1
+Author: omerDekel <omerdekel92@gmail.com>
+Date:   Thu Nov 23 17:48:28 2017 +0200
+
+    Initial commit
