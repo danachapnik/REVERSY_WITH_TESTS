@@ -171,6 +171,8 @@ fstream
 -
 stdlib.h
 -
+string.h
+-
 cstring
 -
 Game.h

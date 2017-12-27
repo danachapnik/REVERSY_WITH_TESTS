@@ -1,0 +1,13 @@
+./IPlayer.o
+./Game.o
+./Socket.o
+./RemoteNetworkPlayer.o
+./BasicRules.o
+./Reversy.o
+./Point.o
+./PlayerTypes.o
+./ConsoleDisplayer.o
+./ComputerPlayer.o
+./LocalNetworkPlayer.o
+./Board.o
+./ConsolePlayer.o

@@ -2,8 +2,8 @@
 #include <iostream>
 #include <unistd.h>
 #include <fstream>
-#include <string>
 #include <stdlib.h>
+#include <string.h>
 #include <cstring>
 #include "Game.h"
 #include "ConsolePlayer.h"
@@ -12,11 +12,11 @@
 #include "BasicRules.h"
 #include "LocalNetworkPlayer.h"
 #include "RemoteNetworkPlayer.h"
-
+using namespace std;
 int main() {
+    string string1;
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
-    string command;
     Board board(8);
     int port;
     char ip[20];
@@ -40,8 +40,16 @@ int main() {
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
+        string choice;
+//    if (i == 0) {
+        cin.ignore();
+//    }
+        getline(cin, choice);
+
+       // const char * s = choice.c_str();
         char buf[50];
-        std::cin >>
+        strcpy(buf, choice.c_str());
+       // cin >> buf;
         int n = write(socket1->getM_socket() , buf , sizeof(buf));
         if (n == -1) {
             throw "Error on write";
