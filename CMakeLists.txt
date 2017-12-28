@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 project(ReversyTests)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread")
+SET( CMAKE_CXX_FLAGS "-pthread")
 add_subdirectory(lib/googletest-master)
 include_directories(lib/googletest-master/googletest/include)
 include_directories(lib/googletest-master/googlemock/include)

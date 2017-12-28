@@ -17,6 +17,7 @@ int main() {
     string string1;
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
+    int n;
     Board board(8);
     int port;
     char ip[20];
@@ -40,21 +41,38 @@ int main() {
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
+        char c;
+        char c2[1];
         string choice;
+        string s;
+        do {
 //    if (i == 0) {
-        cin.ignore();
+            //cin.clear();
+            //cin.ignore();
+            //cin.clear();
+            //cin >> c;
+
 //    }
-        getline(cin, choice);
+            cin >> c;
+            getline(cin , choice);
 
-       // const char * s = choice.c_str();
-        char buf[50];
-        strcpy(buf, choice.c_str());
-       // cin >> buf;
-        int n = write(socket1->getM_socket() , buf , sizeof(buf));
-        if (n == -1) {
-            throw "Error on write";
-        }
-
+             s = c + choice;
+            cout << s << endl;
+            // const char * s = choice.c_str();
+            char buf[50];
+            char buf2[50];
+            strcpy(buf , s.c_str());
+            // cin >> buf;
+            n = write(socket1->getM_socket() , buf , sizeof(buf));
+            if (n == -1) {
+                throw "Error on write";
+            }
+            n = read(socket1->getM_socket(), buf2, sizeof(buf2));
+            if (n == -1) {
+                throw "Error on read";
+            }
+            cout<<buf << endl;
+        } while (strcmp(s.c_str(),"list_games") == 0);
         n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
         if (n == -1) {
             throw "Error on read";
