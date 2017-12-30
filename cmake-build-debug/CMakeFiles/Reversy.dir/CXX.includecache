@@ -75,6 +75,8 @@ IRules.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.cpp
 algorithm
 -
+iostream
+-
 Game.h
 /home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/Game.h
 
