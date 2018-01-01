@@ -18,7 +18,7 @@ int main() {
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
     int n;
-    Board board(8);
+    Board board(4);
     int port;
     char ip[20];
     // pointer to IPlayer type (can be computerPlayer or consolePlayer or remote player).
@@ -35,12 +35,14 @@ int main() {
         player_1 = new ConsolePlayer(PLAYER_TYPE_X , "Player X");
         player_2 = new ConsolePlayer(PLAYER_TYPE_O , "Player O");
     } else if (choose == 3) {
+        bool isLegalCommand = true;
         std::ifstream inFile;
         inFile.open("/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/settings1");
         inFile >> port;
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
+        cout << "please enter your command: start <name of the game>, join <name of the game>, list_games"<< endl;
         char c;
         string choice;
         string s;
@@ -49,29 +51,33 @@ int main() {
             getline(cin , choice);
 
              s = c + choice;
-            cout << s << endl;
             char buf[50];
             char buf2[50];
             strcpy(buf , s.c_str());
-            n = write(socket1->getM_socket() , buf , sizeof(buf));
-            if (n == -1) {
-                cout<< "Error on write"<< endl;
-                return n;
-            }
-            cout<<buf << endl;
-
-            if ((0 != strncmp(buf, "start", strlen("start"))) &&
-                    0 != strncmp(buf, "join", strlen("join")))
-            {
-                n = read(socket1->getM_socket(), buf2, sizeof(buf2));
-                if (n == -1 || n == 0) {
-                    cout<<"Error on read"<< endl;
-                    return -1;
+            //if the command is legal .
+            if ((0 == strncmp(buf, "start", strlen("start"))) || (0 == strncmp(buf, "join", strlen("join")))
+                || strcmp(s.c_str(),"list_games") == 0) {
+                isLegalCommand = true;
+                n = write(socket1->getM_socket() , buf , sizeof(buf));
+                if (n == -1) {
+                    cout << "Error on write" << endl;
+                    return n;
                 }
-                cout<<buf2 << endl;
+                if ((0 != strncmp(buf , "start" , strlen("start"))) &&
+                    0 != strncmp(buf , "join" , strlen("join"))) {
+                    n = read(socket1->getM_socket() , buf2 , sizeof(buf2));
+                    if (n == -1 || n == 0) {
+                        cout << "Error on read" << endl;
+                        return -1;
+                    }
+                    cout << buf2 << endl;
 
+                }
+            } else {
+                isLegalCommand = false;
             }
-        } while (strcmp(s.c_str(),"list_games") == 0);
+        // while the command is illegal or the command is list_games, the client can write another command
+        } while (strcmp(s.c_str(),"list_games") == 0 || !isLegalCommand );
         n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
         if (n == -1) {
             cout<< "Error on read"<< endl;
@@ -81,6 +87,7 @@ int main() {
             cout<< "server was closed"<< endl;
             return n;
         }
+        // if we got an error code from the server.
         if (strcmp(playerNum, "-1") == 0) {
             return -1;
         }

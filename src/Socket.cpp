@@ -41,7 +41,6 @@ void Socket::connectToServer(const char *ip , const unsigned short port) {
         throw "Error connecting to server";
     }
     std::cout << "Connected to server" << std::endl;
-    std:: cout <<"waiting for other player to join" << std:: endl;
 }
 
 Socket::~Socket() {
