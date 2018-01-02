@@ -17,13 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04ccbd45-ff44-48a9-822a-28dd4a731290" name="Default" comment="trying">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocalNetworkPlayer.o" afterPath="$PROJECT_DIR$/LocalNetworkPlayer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RemoteNetworkPlayer.o" afterPath="$PROJECT_DIR$/RemoteNetworkPlayer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reversy.o" afterPath="$PROJECT_DIR$/Reversy.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.out" afterPath="$PROJECT_DIR$/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/Reversy.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/Reversy.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/Socket.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Reversy.dir/src/Socket.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Reversy" afterPath="$PROJECT_DIR$/cmake-build-debug/Reversy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LocalNetworkPlayer.cpp" afterPath="$PROJECT_DIR$/src/LocalNetworkPlayer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp" afterPath="$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Reversy.cpp" afterPath="$PROJECT_DIR$/src/Reversy.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Socket.cpp" afterPath="$PROJECT_DIR$/src/Socket.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/settings1" afterPath="$PROJECT_DIR$/src/settings1" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Reversy.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reversy.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Reversy.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-738">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,8 +53,8 @@
       <file leaf-file-name="Socket.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Socket.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -70,14 +73,36 @@
       <file leaf-file-name="RemoteNetworkPlayer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings1" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalNetworkPlayer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalNetworkPlayer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="e#86#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings1" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/settings1">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -93,7 +118,12 @@
     <findStrings>
       <find>map</find>
       <find>co</find>
+      <find>buf</find>
+      <find>buf2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>list</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/Point.h" />
         <option value="$PROJECT_DIR$/src/Point.cpp" />
         <option value="$PROJECT_DIR$/src/LocalNetworkPlayer.h" />
-        <option value="$PROJECT_DIR$/src/LocalNetworkPlayer.cpp" />
         <option value="$PROJECT_DIR$/src/ConsolePlayer.cpp" />
         <option value="$PROJECT_DIR$/src/ConsoleDisplayer.cpp" />
         <option value="$PROJECT_DIR$/src/ComputerPlayer.h" />
@@ -132,11 +161,12 @@
         <option value="$PROJECT_DIR$/src/BasicRules.cpp" />
         <option value="$PROJECT_DIR$/src/RemoteNetworkPlayer.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp" />
         <option value="$PROJECT_DIR$/src/Game.cpp" />
         <option value="$PROJECT_DIR$/src/Socket.cpp" />
-        <option value="$PROJECT_DIR$/src/Reversy.cpp" />
         <option value="$PROJECT_DIR$/src/settings1" />
+        <option value="$PROJECT_DIR$/src/LocalNetworkPlayer.cpp" />
+        <option value="$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp" />
+        <option value="$PROJECT_DIR$/src/Reversy.cpp" />
       </list>
     </option>
   </component>
@@ -320,7 +350,11 @@
       <workItem from="1514801186128" duration="111000" />
       <workItem from="1514802258674" duration="367000" />
       <workItem from="1514802662786" duration="7686000" />
-      <workItem from="1514812229124" duration="2330000" />
+      <workItem from="1514812229124" duration="4667000" />
+      <workItem from="1514829538668" duration="2067000" />
+      <workItem from="1514832712611" duration="69000" />
+      <workItem from="1514834567987" duration="24000" />
+      <workItem from="1514889673118" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="backup">
       <created>1512486542460</created>
@@ -347,17 +381,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264295000" />
+    <option name="totallyTimeSpent" value="271407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1297" height="675" extended-state="6" />
+    <frame x="65" y="-4" width="1295" height="667" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18378378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31907308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294118" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40819964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30659536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -404,12 +439,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Reversy.cpp</url>
-          <line>90</line>
+          <line>97</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Reversy.cpp</url>
-          <line>48</line>
+          <line>55</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
@@ -666,23 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#86#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ComputerPlayer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -690,10 +708,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Socket.cpp">
+    <entry file="file://$PROJECT_DIR$/src/settings1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -706,28 +732,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalNetworkPlayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#86#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Socket.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoteNetworkPlayer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reversy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="-738">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>

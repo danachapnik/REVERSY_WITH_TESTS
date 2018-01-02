@@ -12,15 +12,22 @@
 #include "BasicRules.h"
 #include "LocalNetworkPlayer.h"
 #include "RemoteNetworkPlayer.h"
+
 using namespace std;
+
 int main() {
     string string1;
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
     int n;
-    Board board(4);
+    Board board(8);
     int port;
     char ip[20];
+    // buffer to write and read strings to/from server.
+    char buf[50];
+    // buffer we use it to get the list.
+    char list[50];
+    bzero(list , sizeof(list));
     // pointer to IPlayer type (can be computerPlayer or consolePlayer or remote player).
     IPlayer *player_1;
     IPlayer *player_2;
@@ -42,7 +49,7 @@ int main() {
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
-        cout << "please enter your command: start <name of the game>, join <name of the game>, list_games"<< endl;
+        cout << "please enter your command: start <name of the game>, join <name of the game>, list_games" << endl;
         char c;
         string choice;
         string s;
@@ -50,13 +57,11 @@ int main() {
             cin >> c;
             getline(cin , choice);
 
-             s = c + choice;
-            char buf[50];
-            char buf2[50];
+            s = c + choice;
             strcpy(buf , s.c_str());
             //if the command is legal .
-            if ((0 == strncmp(buf, "start", strlen("start"))) || (0 == strncmp(buf, "join", strlen("join")))
-                || strcmp(s.c_str(),"list_games") == 0) {
+            if ((0 == strncmp(buf , "start" , strlen("start"))) || (0 == strncmp(buf , "join" , strlen("join")))
+                || strcmp(s.c_str() , "list_games") == 0) {
                 isLegalCommand = true;
                 n = write(socket1->getM_socket() , buf , sizeof(buf));
                 if (n == -1) {
@@ -65,40 +70,42 @@ int main() {
                 }
                 if ((0 != strncmp(buf , "start" , strlen("start"))) &&
                     0 != strncmp(buf , "join" , strlen("join"))) {
-                    n = read(socket1->getM_socket() , buf2 , sizeof(buf2));
+                    n = read(socket1->getM_socket() , list , sizeof(list));
                     if (n == -1 || n == 0) {
                         cout << "Error on read" << endl;
                         return -1;
                     }
-                    cout << buf2 << endl;
-
+                    cout << list << endl;
+                    bzero(list , sizeof(list));
                 }
             } else {
+                cout << "it's illegal command, please try again" << endl;
                 isLegalCommand = false;
             }
-        // while the command is illegal or the command is list_games, the client can write another command
-        } while (strcmp(s.c_str(),"list_games") == 0 || !isLegalCommand );
+            // while the command is illegal or the command is list_games, the client can write another command
+        } while (strcmp(s.c_str() , "list_games") == 0 || !isLegalCommand);
+        // if the command was start or join , wer'e
         n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
         if (n == -1) {
-            cout<< "Error on read"<< endl;
+            cout << "Error on read" << endl;
             return n;
         }
         if (n == 0) {
-            cout<< "server was closed"<< endl;
+            cout << "server was closed" << endl;
             return n;
         }
         // if we got an error code from the server.
-        if (strcmp(playerNum, "-1") == 0) {
+        if (strcmp(playerNum , "-1") == 0) {
             return -1;
         }
         std::cout << "You're player #" << playerNum << std::endl;
-            if (strcmp(playerNum,"1") == 0) {
-                player_1 = new LocalNetworkPlayer(PLAYER_TYPE_X , "Player X" , socket1);
-                player_2 = new RemoteNetworkPlayer(PLAYER_TYPE_O , socket1);
-            } else if (strcmp(playerNum, "2") == 0) {
-                player_1 = new RemoteNetworkPlayer(PLAYER_TYPE_X , socket1);
-                player_2 = new LocalNetworkPlayer(PLAYER_TYPE_O , "Player O" , socket1);
-            }
+        if (strcmp(playerNum , "1") == 0) {
+            player_1 = new LocalNetworkPlayer(PLAYER_TYPE_X , "Player X" , socket1);
+            player_2 = new RemoteNetworkPlayer(PLAYER_TYPE_O , socket1);
+        } else if (strcmp(playerNum , "2") == 0) {
+            player_1 = new RemoteNetworkPlayer(PLAYER_TYPE_X , socket1);
+            player_2 = new LocalNetworkPlayer(PLAYER_TYPE_O , "Player O" , socket1);
+        }
     }
     ConsoleDisplayer displayer;
     BasicRules rules;

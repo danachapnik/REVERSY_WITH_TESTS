@@ -33,7 +33,7 @@ Point LocalNetworkPlayer::get_move(const IRules& rules, const Board& board) {
 void LocalNetworkPlayer::notify_end() {
     // Send End via socket
     int n = write( m_socket->getM_socket() , "END", sizeof("END"));
-    if (n == -1) {
+    if (n == -1 || n == 0) {
         std::cout << "Error<<"<< std::endl;
     }
 

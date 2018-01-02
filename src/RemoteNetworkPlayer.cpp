@@ -21,7 +21,7 @@ Point RemoteNetworkPlayer::get_move(const IRules &rules , const Board &board) {
         throw "Error in read";
     }
     if (n == 0) {
-        throw "Server disconnected";
+        throw "server disconnected or another player disconnected";
     }
     sscanf(buf , "%d,%d" , &x , &y);
     return Point(x , y);
